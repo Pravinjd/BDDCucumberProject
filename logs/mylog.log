@@ -1,0 +1,26 @@
+[INFO ] 2022-12-15 22:10:31.557 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2022-12-15 22:10:33.104 [main] Steps - Url opened
+[INFO ] 2022-12-15 22:10:33.346 [main] Steps - email & password entered
+[INFO ] 2022-12-15 22:10:37.594 [main] Steps - clciked on login button
+[WARN ] 2022-12-15 22:10:37.602 [main] Steps - Test passed :login feature: Page tittle matched
+[INFO ] 2022-12-15 22:10:42.007 [main] Steps - user clicked on logout link
+[WARN ] 2022-12-15 22:10:42.017 [main] Steps - Test passed :login feature: Page tittle matched
+[INFO ] 2022-12-15 22:10:43.654 [main] Steps - ***********************browser closed************************
+[INFO ] 2022-12-16 08:53:22.459 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2022-12-16 08:53:24.343 [main] Steps - Url opened
+[INFO ] 2022-12-16 08:53:36.900 [main] Steps - Url opened
+[INFO ] 2022-12-16 08:53:37.147 [main] Steps - email & password entered
+[INFO ] 2022-12-16 08:53:42.268 [main] Steps - clciked on login button
+[INFO ] 2022-12-16 08:54:04.550 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2022-12-16 08:54:06.842 [main] Steps - Url opened
+[INFO ] 2022-12-16 08:54:18.639 [main] Steps - Url opened
+[INFO ] 2022-12-16 08:54:18.831 [main] Steps - email & password entered
+[INFO ] 2022-12-16 08:54:23.258 [main] Steps - clciked on login button
+[INFO ] 2022-12-16 08:56:08.579 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2022-12-16 08:56:09.803 [main] Steps - Url opened
+[INFO ] 2022-12-16 08:56:10.012 [main] Steps - email & password entered
+[INFO ] 2022-12-16 08:56:13.827 [main] Steps - clciked on login button
+[WARN ] 2022-12-16 08:56:13.832 [main] Steps - Test passed :login feature: Page tittle matched
+[INFO ] 2022-12-16 08:56:18.133 [main] Steps - user clicked on logout link
+[WARN ] 2022-12-16 08:56:18.140 [main] Steps - Test passed :login feature: Page tittle matched
+[INFO ] 2022-12-16 08:56:19.716 [main] Steps - ***********************browser closed************************
