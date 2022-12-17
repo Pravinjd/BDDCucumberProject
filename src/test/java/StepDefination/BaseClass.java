@@ -1,4 +1,4 @@
-package StepDefination;
+ package StepDefination;
  
 import org.apache.commons.lang.RandomStringUtils;
 import org.apache.logging.log4j.Logger;
@@ -23,6 +23,7 @@ public class BaseClass {
 	public static Logger log;     //to log informational messages
 	public ReadConfig readConfig; //to read properties file
 	
+	// generates unique emailId
 	public String generateEmailId()
 	{
 		return RandomStringUtils.randomAlphabetic(5);

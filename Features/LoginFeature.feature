@@ -1,6 +1,6 @@
 Feature: Login
 
-@sanity 
+@regression
 Scenario: Successful Login With Valid Credentials 
 	
 	Given User Launch Chrome Browser
@@ -13,7 +13,7 @@ Scenario: Successful Login With Valid Credentials
 	And close browser
 	
 @regression	
-Scenario Outline:Successful Login With Valid Credentials using DDT 
+Scenario Outline: Successful Login With Valid Credentials using DDT 
 	Given User Launch Chrome Browser
 	When  User opens URL "https://admin-demo.nopcommerce.com/login"
 	And User enters Email as "<email>" and Password as "<password>"
@@ -27,4 +27,6 @@ Scenario Outline:Successful Login With Valid Credentials using DDT
 Examples:
 | email | password |
 | admin@yourstore.com | admin | 
-#| test@yourstore.com | admin |
+| test@yourstore.com | admin |
+| admin@yourstore.com | admim |
+| test@yourstore.com | admim | 

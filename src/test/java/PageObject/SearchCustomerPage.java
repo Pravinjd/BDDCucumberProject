@@ -31,8 +31,8 @@ public class SearchCustomerPage {
 	@FindBy(xpath = "//table[@role='grid']//tbody/tr")
 	List<WebElement> tableRows;
 
-//	@FindBy(xpath="//table[@role='grid']//tbody/tr[1]/td")
-//	List <WebElement> tableColumns; 
+	// @FindBy(xpath="//table[@role='grid']//tbody/tr[1]/td")
+	// List <WebElement> tableColumns;
 
 	@FindBy(id = "SearchFirstName")
 	WebElement firstName;
@@ -51,52 +51,19 @@ public class SearchCustomerPage {
 	public boolean searchCustomerByEmail(String email) {
 		boolean found = false;
 
-		// tottal no of rows in table
+		// total no of rows in table
 		int ttlRows = tableRows.size();
 
 		// total no of columns in table
 		// int ttlColumns=tableColumns.size();
 
-		for (int r = 1; r <= ttlRows; r++) {
-			WebElement usermails = ldriver.findElement(By.xpath("//table[@role='grid']//tbody/tr[" + r + "]/td[2]"));
+		for (int r = 1; r <= ttlRows; r++) 
+		{
+			WebElement usermails = ldriver.findElement(By.xpath("//table[@role='grid']//tbody/tr["+ r +"]/td[2]"));
 
 			String actualmail = usermails.getText();
 
-			if (actualmail.equals(email)) {
-				found = true;
-			}
-
-		}
-		return found;
-	}
-
-	
-//**********search cutomer by name************************************************
-	
-	// action method to enter first name
-	public void enterFirstName(String fName) {
-		firstName.sendKeys(fName);
-	}
-
-	// action method to enter last name
-	public void enterLastName(String lName) {
-		lastName.sendKeys(lName);
-	}
-	
-	public boolean searchCustomerByName(String name) {
-		boolean found = false;
-
-		// tottal no of rows in table
-		int ttlRows = tableRows.size();
-
-	
-
-		for (int r = 1; r <= ttlRows; r++) {
-			WebElement usernames = ldriver.findElement(By.xpath("//table[@role='grid']//tbody/tr[" + r + "]/td[3]"));
-
-			String actualname = usernames.getText();
-
-			if (actualname.equals(name)) 
+			if (actualmail.equals(email)) 
 			{
 				found = true;
 				break;
@@ -106,5 +73,37 @@ public class SearchCustomerPage {
 		return found;
 	}
 
+	// **********************************search cutomer by name************************************************
+
+	// action method to enter first name
+	public void enterFirstName(String fName) {
+		firstName.sendKeys(fName);
+	}
+
+	// action method to enter last name
+	public void enterLastName(String lName) {
+		lastName.sendKeys(lName);
+	}
+
+	public boolean searchCustomerByName(String name) { 
+		boolean found = false;
+
+		// tottal no of rows in table
+		int ttlRows = tableRows.size();
+
+		for (int r = 1; r <= ttlRows; r++) 
+		{
+			WebElement usernames = ldriver.findElement(By.xpath("//table[@role='grid']//tbody/tr[" + r + "]/td[3]"));
+
+			String actualname = usernames.getText();
+
+			if (actualname.equals(name)) 
+			{
+				found = true;
+				break;
+			}
+		}
+		return found;
+	}
 
 }

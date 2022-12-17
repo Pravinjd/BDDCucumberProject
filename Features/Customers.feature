@@ -21,7 +21,7 @@ And click on Save buton
 Then User can view confirmation message "The new customer has been added successfully."
 And close browser
 
- @regression
+@regression
 Scenario: Search Customer By Email
 
 When User clicks on customers menu
@@ -32,8 +32,8 @@ Then User should found Email in the Search Table
 And close browser
 
 
-@sanity
-Scenario: Search Customer By Name
+@regression @sanity
+Scenario: Search Customer By FirstName & LastName
 
 When User clicks on customers menu
 And  click on customers menu Item
