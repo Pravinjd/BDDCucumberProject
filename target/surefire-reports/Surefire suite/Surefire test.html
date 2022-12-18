@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Dec 15 19:16:42 IST 2022</td>
+<td>Started on:</td><td>Sun Dec 18 15:50:35 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>35 seconds (35070 ms)</td>
+<tr><td>Total time:</td><td>29 seconds (29700 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,5 +67,56 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search Customer By FirstName & LastName", "Customers"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //table[@role=&apos;grid&apos;]//tbody/tr[1]/td[3]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
+System info: host: &apos;DESKTOP-LEU7772&apos;, ip: &apos;192.168.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at PageObject.SearchCustomerPage.searchCustomerByName(SearchCustomerPage.java:96)
+	at StepDefination.Steps.user_should_found_name_in_the_search_table(Steps.java:308)
+	at ?.User should found Name in the Search Table(file:///C:/Users/admin/eclipse-workspace/cucumber/CucumberFramework/./Features/Customers.feature:43)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1218405027", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1218405027'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //table[@role=&apos;grid&apos;]//tbody/tr[1]/td[3]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
+System info: host: &apos;DESKTOP-LEU7772&apos;, ip: &apos;192.168.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at PageObject.SearchCustomerPage.searchCustomerByName(SearchCustomerPage.java:96)
+	at StepDefination.Steps.user_should_found_name_in_the_search_table(Steps.java:308)
+	at ?.User should found Name in the Search Table(file:///C:/Users/admin/eclipse-workspace/cucumber/CucumberFramework/./Features/Customers.feature:43)
+</pre></div></td>
+<td>19</td>
+<td>TestRunner.Runner@6f96c77</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful Login With Valid Credentials", "Login"</td>
+<td></td>
+<td>9</td>
+<td>TestRunner.Runner@6f96c77</td></tr>
+</table><p>
 </body>
 </html>

@@ -1,6 +1,6 @@
 Feature: Login
 
-@regression
+@regression @sanity
 Scenario: Successful Login With Valid Credentials 
 	
 	Given User Launch Chrome Browser

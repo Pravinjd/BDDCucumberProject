@@ -1,8 +1,71 @@
-[INFO ] 2022-12-17 22:28:36.855 [main] Steps - *******************Setup1 executed**************************
-[INFO ] 2022-12-17 22:28:38.785 [main] Steps - Url opened
-[INFO ] 2022-12-17 22:28:38.953 [main] Steps - email & password entered
-[INFO ] 2022-12-17 22:28:43.264 [main] Steps - clciked on login button
-[INFO ] 2022-12-17 22:35:19.143 [main] Steps - *******************Setup1 executed**************************
-[INFO ] 2022-12-17 22:35:20.699 [main] Steps - Url opened
-[INFO ] 2022-12-17 22:35:20.875 [main] Steps - email & password entered
-[INFO ] 2022-12-17 22:35:24.878 [main] Steps - clciked on login button
+[INFO ] 2022-12-18 18:58:01.078 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2022-12-18 18:58:02.441 [main] Steps - Url opened
+[INFO ] 2022-12-18 18:58:02.644 [main] Steps - email & password entered
+[INFO ] 2022-12-18 18:58:06.597 [main] Steps - clciked on login button
+[INFO ] 2022-12-18 18:58:15.929 [main] Steps - ***********************browser closed************************
+[INFO ] 2022-12-18 18:58:16.719 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2022-12-18 18:58:18.006 [main] Steps - Url opened
+[INFO ] 2022-12-18 18:58:18.204 [main] Steps - email & password entered
+[INFO ] 2022-12-18 18:58:22.813 [main] Steps - clciked on login button
+[INFO ] 2022-12-18 18:58:30.767 [main] Steps - ***********************browser closed************************
+[INFO ] 2022-12-18 18:58:31.610 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2022-12-18 18:58:32.913 [main] Steps - Url opened
+[INFO ] 2022-12-18 18:58:33.215 [main] Steps - email & password entered
+[INFO ] 2022-12-18 18:58:35.701 [main] Steps - clciked on login button
+[INFO ] 2022-12-18 18:58:49.347 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2022-12-18 18:58:50.590 [main] Steps - Url opened
+[INFO ] 2022-12-18 18:58:50.790 [main] Steps - email & password entered
+[INFO ] 2022-12-18 18:58:54.121 [main] Steps - clciked on login button
+[WARN ] 2022-12-18 18:58:54.128 [main] Steps - Test Passed: Login Feature: Page title matched
+[INFO ] 2022-12-18 18:58:57.078 [main] Steps - user clicked on logout link
+[WARN ] 2022-12-18 18:58:57.085 [main] Steps - Test Passed: Login Feature: Page title matched
+[INFO ] 2022-12-18 18:58:57.085 [main] Steps - ***********************browser closed************************
+[INFO ] 2022-12-18 18:59:13.964 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2022-12-18 18:59:14.478 [main] Steps - Url opened
+[INFO ] 2022-12-18 18:59:14.645 [main] Steps - email & password entered
+[INFO ] 2022-12-18 18:59:18.327 [main] Steps - clciked on login button
+[WARN ] 2022-12-18 18:59:18.333 [main] Steps - Test Passed: Login Feature: Page title matched
+[INFO ] 2022-12-18 18:59:21.114 [main] Steps - user clicked on logout link
+[WARN ] 2022-12-18 18:59:21.119 [main] Steps - Test Passed: Login Feature: Page title matched
+[INFO ] 2022-12-18 18:59:21.120 [main] Steps - ***********************browser closed************************
+[INFO ] 2022-12-18 18:59:38.041 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2022-12-18 18:59:38.551 [main] Steps - Url opened
+[INFO ] 2022-12-18 18:59:38.759 [main] Steps - email & password entered
+[INFO ] 2022-12-18 18:59:39.889 [main] Steps - clciked on login button
+[WARN ] 2022-12-18 18:59:39.896 [main] Steps - Test Failed: Login Feature: Page title is not matched
+[INFO ] 2022-12-18 18:59:40.720 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2022-12-18 18:59:41.251 [main] Steps - Url opened
+[INFO ] 2022-12-18 18:59:41.455 [main] Steps - email & password entered
+[INFO ] 2022-12-18 18:59:42.571 [main] Steps - clciked on login button
+[WARN ] 2022-12-18 18:59:42.578 [main] Steps - Test Failed: Login Feature: Page title is not matched
+[INFO ] 2022-12-18 18:59:43.382 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2022-12-18 18:59:43.911 [main] Steps - Url opened
+[INFO ] 2022-12-18 18:59:44.078 [main] Steps - email & password entered
+[INFO ] 2022-12-18 18:59:44.483 [main] Steps - clciked on login button
+[WARN ] 2022-12-18 18:59:44.489 [main] Steps - Test Failed: Login Feature: Page title is not matched
+[INFO ] 2022-12-18 19:54:27.349 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2022-12-18 19:54:28.343 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2022-12-18 19:55:13.270 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2022-12-18 19:55:14.613 [main] Steps - Url opened
+[INFO ] 2022-12-18 19:55:14.827 [main] Steps - email & password entered
+[INFO ] 2022-12-18 19:55:18.743 [main] Steps - clciked on login button
+[INFO ] 2022-12-18 19:55:32.176 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2022-12-18 19:55:32.698 [main] Steps - Url opened
+[INFO ] 2022-12-18 19:55:32.918 [main] Steps - email & password entered
+[INFO ] 2022-12-18 19:55:37.298 [main] Steps - clciked on login button
+[WARN ] 2022-12-18 19:55:37.306 [main] Steps - Test Passed: Login Feature: Page title matched
+[INFO ] 2022-12-18 19:55:40.546 [main] Steps - user clicked on logout link
+[WARN ] 2022-12-18 19:55:40.553 [main] Steps - Test Passed: Login Feature: Page title matched
+[INFO ] 2022-12-18 19:55:40.554 [main] Steps - ***********************browser closed************************
+[INFO ] 2022-12-18 21:14:33.609 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2022-12-18 21:14:35.540 [main] Steps - Url opened
+[INFO ] 2022-12-18 21:14:35.758 [main] Steps - email & password entered
+[INFO ] 2022-12-18 21:14:41.965 [main] Steps - clciked on login button
+[INFO ] 2022-12-18 21:14:57.136 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2022-12-18 21:14:59.342 [main] Steps - Url opened
+[INFO ] 2022-12-18 21:14:59.537 [main] Steps - email & password entered
+[INFO ] 2022-12-18 21:15:03.382 [main] Steps - clciked on login button
+[WARN ] 2022-12-18 21:15:03.388 [main] Steps - Test Passed: Login Feature: Page title matched
+[INFO ] 2022-12-18 21:15:06.587 [main] Steps - user clicked on logout link
+[WARN ] 2022-12-18 21:15:06.593 [main] Steps - Test Passed: Login Feature: Page title matched
+[INFO ] 2022-12-18 21:15:06.594 [main] Steps - ***********************browser closed************************

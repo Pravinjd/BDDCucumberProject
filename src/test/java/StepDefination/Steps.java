@@ -53,14 +53,14 @@ public class Steps extends BaseClass {
 		case  "msedge":
 			WebDriverManager.edgedriver().setup();
 			driver=new EdgeDriver();
-			driver.manage().window().maximize();
+			//driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			break;
 
 		case  "firefox":
 			WebDriverManager.firefoxdriver().setup();
 			driver=new FirefoxDriver();
-			driver.manage().window().maximize();
+			//driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			break;
 
@@ -312,11 +312,12 @@ public class Steps extends BaseClass {
 		else
 		{
 			Assert.assertTrue(false);
+			
 		}
 
 	}
 
-	/* 
+	/*
 
 @After          //this method will get executed after teardown2  //io.cucumber.java
 public void teardown (Scenario sc) throws IOException 
@@ -344,6 +345,7 @@ public void teardown (Scenario sc) throws IOException
 		//copy file at destination
 		FileUtils.copyFile(SrcFile, DestFile);
 	}
+	 driver.quit();
 }	
 
 	 */
@@ -356,14 +358,12 @@ public void teardown (Scenario sc) throws IOException
 		{ 
 			final byte [] screenshot =((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
 
-
 			//attach image file report (data,media type, name of theattachment)
 			scenario.attach(screenshot, "image/png", scenario.getName() ); 
-		}
-
+		}	
 	}
 
-
+	
 
 	/*
 @After (order=2)            //io.cucumber.java

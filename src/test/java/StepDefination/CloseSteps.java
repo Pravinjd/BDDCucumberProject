@@ -8,7 +8,7 @@ public class CloseSteps extends BaseClass {
 	public void close_browser() {
 		log.info ("***********************browser closed************************");
 		driver.close();
-		driver.quit();
+		//driver.quit();
 	
 	}
 

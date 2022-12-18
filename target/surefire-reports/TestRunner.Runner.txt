@@ -1,4 +1,19 @@
 -------------------------------------------------------------------------------
 Test set: TestRunner.Runner
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.44 s - in TestRunner.Runner
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 30.12 s <<< FAILURE! - in TestRunner.Runner
+TestRunner.Runner.runScenario["Search Customer By FirstName & LastName", "Customers"](1)  Time elapsed: 19.544 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with locator By.xpath: //table[@role='grid']//tbody/tr[1]/td[3]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-LEU7772', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at PageObject.SearchCustomerPage.searchCustomerByName(SearchCustomerPage.java:96)
+	at StepDefination.Steps.user_should_found_name_in_the_search_table(Steps.java:308)
+	at ✽.User should found Name in the Search Table(file:///C:/Users/admin/eclipse-workspace/cucumber/CucumberFramework/./Features/Customers.feature:43)
+
