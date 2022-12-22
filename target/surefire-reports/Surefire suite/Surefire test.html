@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Dec 18 15:50:35 IST 2022</td>
+<td>Started on:</td><td>Wed Dec 21 10:51:30 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>29 seconds (29700 ms)</td>
+<tr><td>Total time:</td><td>49 seconds (49774 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,33 +76,21 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='TestRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search Customer By FirstName & LastName", "Customers"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //table[@role=&apos;grid&apos;]//tbody/tr[1]/td[3]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
-System info: host: &apos;DESKTOP-LEU7772&apos;, ip: &apos;192.168.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-	at PageObject.SearchCustomerPage.searchCustomerByName(SearchCustomerPage.java:96)
-	at StepDefination.Steps.user_should_found_name_in_the_search_table(Steps.java:308)
+<td><div><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at StepDefination.Steps.user_should_found_name_in_the_search_table(Steps.java:314)
 	at ?.User should found Name in the Search Table(file:///C:/Users/admin/eclipse-workspace/cucumber/CucumberFramework/./Features/Customers.feature:43)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1218405027", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1218405027'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //table[@role=&apos;grid&apos;]//tbody/tr[1]/td[3]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
-System info: host: &apos;DESKTOP-LEU7772&apos;, ip: &apos;192.168.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-	at PageObject.SearchCustomerPage.searchCustomerByName(SearchCustomerPage.java:96)
-	at StepDefination.Steps.user_should_found_name_in_the_search_table(Steps.java:308)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1290584410", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1290584410'><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at StepDefination.Steps.user_should_found_name_in_the_search_table(Steps.java:314)
 	at ?.User should found Name in the Search Table(file:///C:/Users/admin/eclipse-workspace/cucumber/CucumberFramework/./Features/Customers.feature:43)
 </pre></div></td>
-<td>19</td>
+<td>21</td>
 <td>TestRunner.Runner@6f96c77</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -115,7 +103,7 @@ Driver info: driver.version: RemoteWebDriver
 <tr>
 <td title='TestRunner.Runner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful Login With Valid Credentials", "Login"</td>
 <td></td>
-<td>9</td>
+<td>27</td>
 <td>TestRunner.Runner@6f96c77</td></tr>
 </table><p>
 </body>

@@ -39,6 +39,9 @@ public class Steps extends BaseClass {
 		//initialise ReadConfig()class to read data from config.properties
 		readConfig = new ReadConfig();
 		String browser=readConfig.getBrowser();
+		
+		//create an object of logger class
+			log = LogManager.getLogger("Steps");
 
 		//launch browser
 		switch(browser.toLowerCase())
@@ -70,8 +73,7 @@ public class Steps extends BaseClass {
 		}
 
 
-		//create an object of logger class
-		log = LogManager.getLogger("Steps");
+		
 		log.info("*******************Setup1 executed**************************");
 	}
 
@@ -162,10 +164,6 @@ public class Steps extends BaseClass {
 	}
 	 */	
 
-	//**********************************  ADD NEW CUSTOMER PAGE ***************************************
-
-
-
 	@Then("User can view Dashboard")
 	public void user_can_view_dashboard() {
 		String actualTitle = addNewCustomerpg.getPageTitle();
@@ -180,7 +178,9 @@ public class Steps extends BaseClass {
 			Assert.assertTrue(false);
 		}
 	}
-
+	
+	//**********************************  ADD NEW CUSTOMER PAGE ***************************************
+	
 	@When("User clicks on customers menu")
 	public void user_clicks_on_customers_menu() throws InterruptedException {
 		addNewCustomerpg.clickOnCustomersMenu();

@@ -69,3 +69,27 @@
 [INFO ] 2022-12-18 21:15:06.587 [main] Steps - user clicked on logout link
 [WARN ] 2022-12-18 21:15:06.593 [main] Steps - Test Passed: Login Feature: Page title matched
 [INFO ] 2022-12-18 21:15:06.594 [main] Steps - ***********************browser closed************************
+[INFO ] 2022-12-21 10:51:34.965 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2022-12-21 10:51:36.261 [main] Steps - Url opened
+[INFO ] 2022-12-21 10:51:36.466 [main] Steps - email & password entered
+[INFO ] 2022-12-21 10:51:40.265 [main] Steps - clciked on login button
+[INFO ] 2022-12-21 10:51:53.644 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2022-12-21 10:51:54.899 [main] Steps - Url opened
+[INFO ] 2022-12-21 10:51:55.095 [main] Steps - email & password entered
+[INFO ] 2022-12-21 10:52:01.116 [main] Steps - clciked on login button
+[WARN ] 2022-12-21 10:52:01.121 [main] Steps - Test Passed: Login Feature: Page title matched
+[INFO ] 2022-12-21 10:52:04.166 [main] Steps - user clicked on logout link
+[WARN ] 2022-12-21 10:52:04.171 [main] Steps - Test Passed: Login Feature: Page title matched
+[INFO ] 2022-12-21 10:52:04.172 [main] Steps - ***********************browser closed************************
+[INFO ] 2022-12-22 20:51:27.333 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2022-12-22 20:51:29.087 [main] Steps - Url opened
+[INFO ] 2022-12-22 20:51:29.305 [main] Steps - email & password entered
+[INFO ] 2022-12-22 20:51:33.935 [main] Steps - clciked on login button
+[INFO ] 2022-12-22 20:51:47.439 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2022-12-22 20:51:48.679 [main] Steps - Url opened
+[INFO ] 2022-12-22 20:51:48.891 [main] Steps - email & password entered
+[INFO ] 2022-12-22 20:51:54.312 [main] Steps - clciked on login button
+[WARN ] 2022-12-22 20:51:54.319 [main] Steps - Test Passed: Login Feature: Page title matched
+[INFO ] 2022-12-22 20:51:57.129 [main] Steps - user clicked on logout link
+[WARN ] 2022-12-22 20:51:57.135 [main] Steps - Test Passed: Login Feature: Page title matched
+[INFO ] 2022-12-22 20:51:57.136 [main] Steps - ***********************browser closed************************
