@@ -14,6 +14,7 @@ public class ReadConfig {
 		properties =new Properties();
 		
 		//open config.properties file to read & load that file
+		
 		FileInputStream fis =new FileInputStream(path);
 		properties.load(fis);
 	}

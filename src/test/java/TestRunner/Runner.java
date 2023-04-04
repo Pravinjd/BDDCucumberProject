@@ -18,14 +18,14 @@ import io.cucumber.testng.CucumberOptions;
 		//if u want to run all Stepdef files in a folder
 		glue= "StepDefination" ,	
 		dryRun = false ,
-		monochrome = true ,
+		//monochrome = true ,
 		tags="@sanity",
 		
 		//html report plugin
 		//plugin = {"pretty","html:target/cucumber-reports/103testng.html"}
 		
 		//extent report plugin
-		plugin={"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+		plugin={"pretty","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 		
 		)
 
@@ -33,8 +33,6 @@ import io.cucumber.testng.CucumberOptions;
 public class Runner extends AbstractTestNGCucumberTests {
 	
  /*this is class will be empty always*/
-
-
 
 
 }

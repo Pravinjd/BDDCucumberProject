@@ -8,13 +8,13 @@ import java.util.Date;
 
 import org.apache.logging.log4j.LogManager;
 import org.codehaus.plexus.util.FileUtils;
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
 
 import PageObject.AddNewCustomerPage;
 import PageObject.LoginPage;
