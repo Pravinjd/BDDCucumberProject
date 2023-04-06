@@ -201,3 +201,125 @@
 [INFO ] 2023-04-04 14:10:08.800 [main] Steps - user clicked on logout link
 [WARN ] 2023-04-04 14:10:08.805 [main] Steps - Test Passed: Login Feature: Page title matched
 [INFO ] 2023-04-04 14:10:08.806 [main] Steps - ***********************browser closed************************
+[INFO ] 2023-04-05 08:45:00.294 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2023-04-05 08:45:02.802 [main] Steps - Url opened
+[INFO ] 2023-04-05 08:45:03.044 [main] Steps - email & password entered
+[INFO ] 2023-04-05 08:45:06.522 [main] Steps - clciked on login button
+[INFO ] 2023-04-05 08:45:20.251 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2023-04-05 08:45:22.670 [main] Steps - Url opened
+[INFO ] 2023-04-05 08:45:22.877 [main] Steps - email & password entered
+[INFO ] 2023-04-05 08:45:26.357 [main] Steps - clciked on login button
+[WARN ] 2023-04-05 08:45:26.362 [main] Steps - Test Passed: Login Feature: Page title matched
+[INFO ] 2023-04-05 08:45:29.120 [main] Steps - user clicked on logout link
+[WARN ] 2023-04-05 08:45:29.125 [main] Steps - Test Passed: Login Feature: Page title matched
+[INFO ] 2023-04-05 08:45:29.126 [main] Steps - ***********************browser closed************************
+[INFO ] 2023-04-05 08:51:24.466 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2023-04-05 08:51:27.563 [main] Steps - Url opened
+[INFO ] 2023-04-05 08:51:27.770 [main] Steps - email & password entered
+[INFO ] 2023-04-05 08:51:31.199 [main] Steps - clciked on login button
+[INFO ] 2023-04-05 08:55:48.089 [TestNG-PoolService-0] Steps - *******************Setup1 executed**************************
+[INFO ] 2023-04-05 08:55:48.089 [TestNG-PoolService-1] Steps - *******************Setup1 executed**************************
+[INFO ] 2023-04-05 08:55:50.654 [TestNG-PoolService-0] Steps - Url opened
+[INFO ] 2023-04-05 08:55:51.725 [TestNG-PoolService-1] Steps - Url opened
+[INFO ] 2023-04-05 08:55:51.971 [TestNG-PoolService-0] Steps - email & password entered
+[INFO ] 2023-04-05 08:55:51.987 [TestNG-PoolService-1] Steps - email & password entered
+[INFO ] 2023-04-05 08:55:52.033 [TestNG-PoolService-0] Steps - clciked on login button
+[INFO ] 2023-04-05 08:55:52.055 [TestNG-PoolService-1] Steps - clciked on login button
+[WARN ] 2023-04-05 08:55:52.062 [TestNG-PoolService-1] Steps - Test Failed: Login Feature: Page title is not matched
+[INFO ] 2023-04-05 08:56:21.456 [TestNG-PoolService-1] Steps - *******************Setup1 executed**************************
+[INFO ] 2023-04-05 08:56:21.456 [TestNG-PoolService-0] Steps - *******************Setup1 executed**************************
+[INFO ] 2023-04-05 08:56:23.230 [TestNG-PoolService-1] Steps - Url opened
+[INFO ] 2023-04-05 08:56:24.419 [TestNG-PoolService-0] Steps - Url opened
+[INFO ] 2023-04-05 08:56:24.709 [TestNG-PoolService-1] Steps - email & password entered
+[INFO ] 2023-04-05 08:56:24.729 [TestNG-PoolService-0] Steps - email & password entered
+[INFO ] 2023-04-05 08:56:24.781 [TestNG-PoolService-1] Steps - clciked on login button
+[INFO ] 2023-04-05 08:56:24.809 [TestNG-PoolService-0] Steps - clciked on login button
+[WARN ] 2023-04-05 08:56:24.813 [TestNG-PoolService-1] Steps - Test Failed: Login Feature: Page title is not matched
+[INFO ] 2023-04-05 08:58:44.924 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2023-04-05 08:58:47.517 [main] Steps - Url opened
+[INFO ] 2023-04-05 08:58:47.733 [main] Steps - email & password entered
+[INFO ] 2023-04-05 08:58:51.374 [main] Steps - clciked on login button
+[INFO ] 2023-04-05 08:59:04.944 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2023-04-05 08:59:07.400 [main] Steps - Url opened
+[INFO ] 2023-04-05 08:59:07.611 [main] Steps - email & password entered
+[INFO ] 2023-04-05 08:59:12.859 [main] Steps - clciked on login button
+[WARN ] 2023-04-05 08:59:12.882 [main] Steps - Test Passed: Login Feature: Page title matched
+[INFO ] 2023-04-05 08:59:15.839 [main] Steps - user clicked on logout link
+[WARN ] 2023-04-05 08:59:15.848 [main] Steps - Test Passed: Login Feature: Page title matched
+[INFO ] 2023-04-05 08:59:15.849 [main] Steps - ***********************browser closed************************
+[INFO ] 2023-04-05 09:03:48.241 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2023-04-05 09:03:51.289 [main] Steps - Url opened
+[INFO ] 2023-04-05 09:03:51.503 [main] Steps - email & password entered
+[INFO ] 2023-04-05 09:03:55.089 [main] Steps - clciked on login button
+[INFO ] 2023-04-05 09:04:08.291 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2023-04-05 09:04:10.101 [main] Steps - Url opened
+[INFO ] 2023-04-05 09:04:10.296 [main] Steps - email & password entered
+[INFO ] 2023-04-05 09:04:15.587 [main] Steps - clciked on login button
+[WARN ] 2023-04-05 09:04:15.595 [main] Steps - Test Passed: Login Feature: Page title matched
+[INFO ] 2023-04-05 09:04:18.410 [main] Steps - user clicked on logout link
+[WARN ] 2023-04-05 09:04:18.416 [main] Steps - Test Passed: Login Feature: Page title matched
+[INFO ] 2023-04-05 09:04:18.417 [main] Steps - ***********************browser closed************************
+[INFO ] 2023-04-05 09:07:43.301 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2023-04-05 09:07:46.031 [main] Steps - Url opened
+[INFO ] 2023-04-05 09:07:46.235 [main] Steps - email & password entered
+[INFO ] 2023-04-05 09:07:50.537 [main] Steps - clciked on login button
+[INFO ] 2023-04-05 09:08:03.768 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2023-04-05 09:08:06.270 [main] Steps - Url opened
+[INFO ] 2023-04-05 09:08:06.477 [main] Steps - email & password entered
+[INFO ] 2023-04-05 09:08:10.156 [main] Steps - clciked on login button
+[WARN ] 2023-04-05 09:08:10.163 [main] Steps - Test Passed: Login Feature: Page title matched
+[INFO ] 2023-04-05 09:08:12.964 [main] Steps - user clicked on logout link
+[WARN ] 2023-04-05 09:08:12.969 [main] Steps - Test Passed: Login Feature: Page title matched
+[INFO ] 2023-04-05 09:08:12.970 [main] Steps - ***********************browser closed************************
+[INFO ] 2023-04-05 09:17:35.658 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2023-04-05 09:17:38.217 [main] Steps - Url opened
+[INFO ] 2023-04-05 09:17:38.419 [main] Steps - email & password entered
+[INFO ] 2023-04-05 09:17:42.001 [main] Steps - clciked on login button
+[INFO ] 2023-04-05 09:17:50.260 [main] Steps - ***********************browser closed************************
+[INFO ] 2023-04-05 09:17:51.110 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2023-04-05 09:17:53.591 [main] Steps - Url opened
+[INFO ] 2023-04-05 09:17:53.783 [main] Steps - email & password entered
+[INFO ] 2023-04-05 09:17:58.898 [main] Steps - clciked on login button
+[INFO ] 2023-04-05 09:18:12.151 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2023-04-05 09:18:13.995 [main] Steps - Url opened
+[INFO ] 2023-04-05 09:18:14.175 [main] Steps - email & password entered
+[INFO ] 2023-04-05 09:18:17.940 [main] Steps - clciked on login button
+[INFO ] 2023-04-05 09:18:31.183 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2023-04-05 09:18:33.790 [main] Steps - Url opened
+[INFO ] 2023-04-05 09:18:33.967 [main] Steps - email & password entered
+[INFO ] 2023-04-05 09:18:37.841 [main] Steps - clciked on login button
+[WARN ] 2023-04-05 09:18:37.848 [main] Steps - Test Passed: Login Feature: Page title matched
+[INFO ] 2023-04-05 09:18:40.669 [main] Steps - user clicked on logout link
+[WARN ] 2023-04-05 09:18:40.676 [main] Steps - Test Passed: Login Feature: Page title matched
+[INFO ] 2023-04-05 09:18:40.676 [main] Steps - ***********************browser closed************************
+[INFO ] 2023-04-05 09:18:41.450 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2023-04-05 09:18:43.868 [main] Steps - Url opened
+[INFO ] 2023-04-05 09:18:44.056 [main] Steps - email & password entered
+[INFO ] 2023-04-05 09:18:46.536 [main] Steps - clciked on login button
+[WARN ] 2023-04-05 09:18:46.541 [main] Steps - Test Passed: Login Feature: Page title matched
+[INFO ] 2023-04-05 09:18:49.320 [main] Steps - user clicked on logout link
+[WARN ] 2023-04-05 09:18:49.325 [main] Steps - Test Passed: Login Feature: Page title matched
+[INFO ] 2023-04-05 09:18:49.326 [main] Steps - ***********************browser closed************************
+[INFO ] 2023-04-05 09:18:50.070 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2023-04-05 09:18:52.583 [main] Steps - Url opened
+[INFO ] 2023-04-05 09:18:52.768 [main] Steps - email & password entered
+[INFO ] 2023-04-05 09:18:53.966 [main] Steps - clciked on login button
+[WARN ] 2023-04-05 09:18:53.972 [main] Steps - Test Failed: Login Feature: Page title is not matched
+[INFO ] 2023-04-05 09:18:54.788 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2023-04-05 09:18:56.528 [main] Steps - Url opened
+[INFO ] 2023-04-05 09:18:56.696 [main] Steps - email & password entered
+[INFO ] 2023-04-05 09:18:57.131 [main] Steps - clciked on login button
+[WARN ] 2023-04-05 09:18:57.137 [main] Steps - Test Failed: Login Feature: Page title is not matched
+[INFO ] 2023-04-05 09:18:57.925 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2023-04-05 09:19:56.398 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2023-04-05 09:19:58.282 [main] Steps - Url opened
+[INFO ] 2023-04-05 09:19:58.486 [main] Steps - email & password entered
+[INFO ] 2023-04-05 09:20:13.275 [main] Steps - clciked on login button
+[INFO ] 2023-04-05 09:20:26.854 [main] Steps - *******************Setup1 executed**************************
+[INFO ] 2023-04-05 09:20:28.623 [main] Steps - Url opened
+[INFO ] 2023-04-05 09:20:28.844 [main] Steps - email & password entered
+[INFO ] 2023-04-05 09:20:31.634 [main] Steps - clciked on login button
+[WARN ] 2023-04-05 09:20:31.794 [main] Steps - Test Passed: Login Feature: Page title matched
+[INFO ] 2023-04-05 09:20:34.630 [main] Steps - user clicked on logout link
+[WARN ] 2023-04-05 09:20:34.635 [main] Steps - Test Passed: Login Feature: Page title matched
+[INFO ] 2023-04-05 09:20:34.637 [main] Steps - ***********************browser closed************************

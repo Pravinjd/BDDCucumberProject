@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-24T10:30:36 IST" name="Surefire suite" finished-at="2023-03-24T10:30:42 IST" duration-ms="5390">
+  <suite started-at="2023-04-05T09:19:53 IST" name="Surefire suite" finished-at="2023-04-05T09:20:35 IST" duration-ms="41711">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@2fb3536e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@48e4374]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-03-24T10:30:36 IST" name="Surefire test" finished-at="2023-03-24T10:30:42 IST" duration-ms="5390">
-      <class name="TestRunner.Runner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.Runner@2fb3536e]" started-at="2023-03-24T10:30:36 IST" name="setUpClass" finished-at="2023-03-24T10:30:37 IST" duration-ms="634" status="PASS">
+    <test started-at="2023-04-05T09:19:53 IST" name="Surefire test" finished-at="2023-04-05T09:20:35 IST" duration-ms="41711">
+      <class name="TestRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.TestRunner@48e4374]" started-at="2023-04-05T09:19:53 IST" name="setUpClass" finished-at="2023-04-05T09:19:54 IST" duration-ms="530" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6fd7aba8]]>
+                <![CDATA[org.testng.TestRunner@606b53a3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@2fb3536e]" started-at="2023-03-24T10:30:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T10:30:40 IST" duration-ms="3587" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@48e4374]" started-at="2023-04-05T09:19:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-05T09:20:26 IST" duration-ms="32072" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -34,36 +34,25 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.remote.http.ConnectionFailedException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Unable to establish websocket connection to http://localhost:60279/devtools/browser/5db07b50-2f02-45b8-8dca-a990d3892864
-Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
-System info: host: 'DESKTOP-LEU7772', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
-Driver info: driver.version: ChromeDriver]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:60279/devtools/browser/5db07b50-2f02-45b8-8dca-a990d3892864
-Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
-System info: host: 'DESKTOP-LEU7772', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
-at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
-at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
-at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
-at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:122)
-at java.base/java.util.Optional.map(Optional.java:260)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:120)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:106)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:93)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:48)
-at StepDefination.Steps.setup1(Steps.java:51)
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at StepDefination.Steps.user_should_found_name_in_the_search_table(Steps.java:314)
+at ✽.User should found Name in the Search Table(file:///C:/Users/admin/eclipse-workspace/cucumber/CucumberFramework/./Features/Customers.feature:43)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.http.ConnectionFailedException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@2fb3536e]" started-at="2023-03-24T10:30:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T10:30:41 IST" duration-ms="760" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@48e4374]" started-at="2023-04-05T09:20:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-05T09:20:34 IST" duration-ms="8582" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -76,40 +65,14 @@ at StepDefination.Steps.setup1(Steps.java:51)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.remote.http.ConnectionFailedException">
-            <message>
-              <![CDATA[Unable to establish websocket connection to http://localhost:60292/devtools/browser/9963bb8d-e8c8-4a5d-ba47-0484c9b8ef21
-Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
-System info: host: 'DESKTOP-LEU7772', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
-Driver info: driver.version: ChromeDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:60292/devtools/browser/9963bb8d-e8c8-4a5d-ba47-0484c9b8ef21
-Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
-System info: host: 'DESKTOP-LEU7772', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
-at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
-at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:106)
-at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
-at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:122)
-at java.base/java.util.Optional.map(Optional.java:260)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:120)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:106)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:93)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:48)
-at StepDefination.Steps.setup1(Steps.java:51)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.http.ConnectionFailedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.Runner@2fb3536e]" started-at="2023-03-24T10:30:41 IST" name="tearDownClass" finished-at="2023-03-24T10:30:42 IST" duration-ms="374" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.TestRunner@48e4374]" started-at="2023-04-05T09:20:34 IST" name="tearDownClass" finished-at="2023-04-05T09:20:35 IST" duration-ms="494" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- TestRunner.Runner -->
+      </class> <!-- TestRunner.TestRunner -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>
